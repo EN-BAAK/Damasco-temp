@@ -1,0 +1,30 @@
+#brands {
+  .container {
+    .swiper-wrapper {
+      align-items: center;
+
+      .swiper-slide {
+        @include centering;
+
+        img {
+          max-width: 100%;
+          width: 85px;
+          height: auto;
+          @include prefixer(transition, var(--time-transition));
+          cursor: pointer;
+
+          @include breakpoints(md) {
+            @include prefixer(filter, grayscale(0.75));
+            &:hover {
+              @include prefixer(filter, grayscale(0));
+            }
+          }
+
+          @include breakpoints(lg) {
+            width: 110px;
+          }
+        }
+      }
+    }
+  }
+}

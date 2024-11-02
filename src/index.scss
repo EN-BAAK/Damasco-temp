@@ -1,0 +1,33 @@
+/* Helpers */
+@import "./styles/helpers/variables";
+@import "./styles/helpers/mixins";
+@import "./styles/helpers/animations";
+
+/* Global */
+@import "./styles/screens/global-rule";
+
+/* Pages */
+
+/* layout */
+@import "./styles/layout/header";
+@import "./styles/layout/topBar";
+@import "./styles/layout/imageViewer";
+@import "./styles/layout/loadingPage";
+
+/* Components */
+@import "./styles/components/sections/hero";
+@import "./styles/components/sections/aboutUs";
+@import "./styles/components/sections/guarantee";
+@import "./styles/components/sections/brands";
+@import "./styles/components/sections/services";
+@import "./styles/components/sections/branches";
+@import "./styles/components/sections/gallery";
+@import "./styles/components/sections/footer";
+
+@import "./styles/components/cta";
+@import "./styles/components/languageBox";
+
+@import "./styles/components/button";
+@import "./styles/components/headingTitle";
+@import "./styles/components/productsCard";
+@import "./styles/components/branch";

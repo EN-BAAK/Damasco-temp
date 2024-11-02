@@ -1,0 +1,39 @@
+.lang-box {
+  background-color: var(--c-main);
+  @include centering;
+  padding: 8px;
+  @include prefixer(border-radius, 50%);
+  position: relative;
+  color: var(--c-white-main);
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--c-main-shadow);
+  }
+
+  .box {
+    background-color: var(--c-white-main);
+    @include prefixer(border-radius, 4px);
+    box-shadow: 0 1px 12px var(--c-white-shadow);
+    position: absolute;
+    bottom: -110px;
+    color: var(--c-grey-text);
+
+    ul {
+      li {
+        padding: 5px 12px;
+        @include prefixer(transition, var(--time-transition));
+        text-align: center;
+
+        &:hover {
+          color: var(--c-main);
+        }
+
+        &.active {
+          background-color: var(--c-main);
+          color: var(--c-white-main);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "global": {
+    "home": "home",
+    "brands": "brands",
+    "about": "about",
+    "guarantee": "guarantee",
+    "services": "services",
+    "branches": "branches",
+    "company": "Damasco",
+    "about-us": "about us",
+    "damasco": "Damasco",
+    "cmore": "See more",
+    "gallery": "gallery"
+  },
+  "topBar": {
+    "time": "Saturday-Thursday, 8AM to 10PM",
+    "calling": " Call Us:",
+    "number": "0954 439 592"
+  },
+  "hero": {
+    "welcome": "Welcome to <span>Damasco</span> Medical Supplies Company.",
+    "message1": "Everything needed for doctors and patients.",
+    "message2": "Medical braces.",
+    "message3": "Surgical instruments.",
+    "message4": "Medical clothing.",
+    "message5": "Blood sugar, pressure, and oxygen measurement devices."
+  },
+  "brands": {
+    "title": "We offer medical products for the most famous international companies that are considered pioneers in their field"
+  },
+  "about": {
+    "paragraph": "Damascus Company, established in 2011, is a leading company in the field of medical supplies. Damascus aims to meet the needs of both doctors and patients by offering a wide range of high-quality products. Under the motto <span>'Everything for the doctor and the patient,'</span> we are committed to providing the latest medical technologies and essential supplies that contribute to improving healthcare and enhancing customer experience. Damascus is known for its competitive prices, making it the optimal choice for customers seeking quality at a reasonable cost.",
+    "showMore": "read more..."
+  },
+  "cta": {
+    "title": "Damasco prides itself on having multiple branches within Damascus, ensuring the reach of its services and products to the largest possible number of customers in the region. Whether you are a doctor looking for precise tools and innovative medical devices, or a patient in need of reliable medical supplies for daily use, Damasco is the perfect partner for you. We are here to support you every step of the way on the path of comprehensive healthcare",
+    "btn": "Explore more"
+  },
+  "guarantee": {
+    "title": "guarantees",
+    "desc": "Over the years of Damascus Company's journey, we have partnered with a selection of local and international companies known for their superior quality. This drove us to provide guarantees to enhance customer trust in us.",
+    "guarantee": "The Alpha Sugar Measure Device sets a new standard in diabetes care with its emphasis on data security and user privacy, utilizing robust encryption methods to safeguard sensitive health information. Its durable construction ensures longevity, making it a dependable companion for daily glucose monitoring needs. This innovative device caters to users of all ages, offering a seamless and comfortable experience in tracking blood sugar levels. With its focus on accuracy and ease of use, the Alpha device empowers individuals to take control of their health with confidence and peace of mind. Its blend of advanced technology and user-centric design makes it a valuable asset for those prioritizing proactive and effective diabetes management.",
+    "showMore": "read more..."
+  },
+  "services": {
+    "desc": "We offer a diverse range of essential products for medical professionals in surgical procedures and examinations, in addition to providing all the necessary equipment and tools for nurses and patients"
+  },
+  "branches": {
+    "desc": "We have multiple branches in various areas within the capital Damascus to ensure everything that concerns the doctor and the patient anywhere and at any time",
+    "mobile": "Phone",
+    "telephone": "Telephone"
+  },
+  "gallery": {
+    "title": "Gallery"
+  },
+  "footer": {
+    "services": {
+      "title": "Our Services",
+      "content": {
+        "braces": "Braces and Supports",
+        "Instruments": "Surgical Instruments",
+        "catheters": "Catheters",
+        "devices": "Medical Devices",
+        "apparel": "Medical Apparel",
+        "oxygen": "Oxygen Equipment"
+      }
+    },
+    "links": {
+      "title": "Useful Links",
+      "content": {
+        "home": "Home",
+        "brands": "Brands",
+        "about": "About Us",
+        "services": "Services",
+        "branches": "Branches"
+      }
+    },
+    "contact": {
+      "damasco": "Damasco Medical Supplies Company",
+      "marketing": "Everything needed for doctors and patients.",
+      "social": {
+        "mail": "mail",
+        "phone": "mobile",
+        "telephone": "telephone"
+      }
+    }
+  }
+}

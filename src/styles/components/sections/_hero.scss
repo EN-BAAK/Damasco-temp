@@ -1,0 +1,126 @@
+.hero {
+  height: 100vh;
+  padding-top: 150px;
+  @include centering;
+  position: relative;
+  text-align: center;
+
+  @include breakpoints(lg) {
+    text-align: left;
+
+    &.arabic {
+      text-align: right;
+    }
+  }
+
+  @include breakpoints(xs) {
+    padding-top: 50px;
+  }
+
+  &::before {
+    content: "";
+    width: 110%;
+    height: 850px;
+    background-image: linear-gradient(
+      to bottom,
+      var(--c-main-transparent),
+      var(--c-white-main)
+    );
+    position: absolute;
+    top: 0;
+    left: -15px;
+
+    @include breakpoints(lg) {
+      @include prefixer(border-radius, 50%);
+      width: 75vw;
+      height: 112%;
+      top: 0;
+      left: -20vw;
+    }
+  }
+
+  &.arabic {
+    &::before {
+      left: auto;
+      right: -15px;
+      @include breakpoints(lg) {
+        left: auto;
+        right: -20vw;
+      }
+    }
+  }
+  .hero-title {
+    h1 {
+      margin-bottom: 15px;
+      font-weight: 600;
+
+      span {
+        font-weight: 800;
+        color: var(--c-main);
+      }
+    }
+
+    p {
+      font-size: 24px;
+      font-weight: 600;
+    }
+
+    @include breakpoints(xs) {
+      margin-top: 50px;
+      padding: 0;
+      @include centering;
+    }
+
+    @include breakpoints(lg) {
+      padding: 35px 20px 35px 0;
+
+      &.ar {
+        text-align: right;
+      }
+
+      &.en {
+        text-align: left;
+      }
+    }
+  }
+
+  .img-holder {
+    @include centering;
+    order: -1;
+
+    @include breakpoints(lg) {
+      order: 6;
+    }
+
+    &.ar {
+      order: -1;
+
+      @include breakpoints(lg) {
+        img {
+          margin-right: 100px;
+        }
+      }
+    }
+
+    &.en {
+      @include breakpoints(lg) {
+        img {
+          margin-left: 100px;
+        }
+      }
+    }
+
+    img {
+      width: 450px;
+      @include breakpoints(#{$xxs}) {
+        margin-top: 65px;
+        width: 380px;
+      }
+
+      @include breakpoints(lg) {
+        width: 500px;
+        @include animation(floating, 4.5s linear infinite);
+      }
+    }
+  }
+}

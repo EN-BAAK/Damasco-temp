@@ -1,0 +1,25 @@
+.products-card {
+  height: 450px;
+  box-shadow: 1px 1px 15px 0 var(--c-white-shadow);
+
+  .card-img-top {
+    height: 256px;
+    cursor: pointer;
+
+    &:hover {
+      img {
+        @include prefixer(transform, scale(1.2) rotate(7deg));
+      }
+    }
+
+    img {
+      @include same-scale(100%);
+      @include prefixer(transition, var(--time-transition));
+      position: relative;
+    }
+  }
+
+  .card-title {
+    color: var(--c-main);
+  }
+}

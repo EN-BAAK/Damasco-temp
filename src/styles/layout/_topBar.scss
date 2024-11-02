@@ -1,0 +1,42 @@
+#topbar {
+  background-color: var(--c-main);
+  height: 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  font-size: 11px;
+  @include prefixer(transition, var(--time-transition));
+  z-index: 999;
+
+  @include breakpoints(sm) {
+    font-size: 14px;
+  }
+
+  @include breakpoints(md) {
+    font-size: 18px;
+  }
+
+  p {
+    line-height: 40px;
+
+    svg {
+      margin: 0 5px 0 0;
+    }
+
+    svg.arabic {
+      margin: 0 0 0 5px;
+    }
+
+    span {
+      direction: ltr;
+
+      &.pointer {
+        cursor: pointer;
+      }
+    }
+  }
+  &.scrolled {
+    top: -40px;
+  }
+}

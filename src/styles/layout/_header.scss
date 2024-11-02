@@ -1,0 +1,118 @@
+header {
+  background-color: var(--c-white-main);
+  width: 100%;
+  height: 72px;
+  box-shadow: 0 3px 12px var(--c-white-shadow);
+  position: fixed;
+  top: 40px;
+  left: 0;
+  z-index: 999;
+  @include prefixer(transition, var(--time-transition) var(--time-transition));
+
+  &.scrolled {
+    top: 0;
+  }
+
+  .logo {
+    margin: 0 auto 0 0;
+    text-shadow: 1.5px 1.5px 0 var(--c-main-shadow);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    color: var(--c-main);
+
+    &.arabic {
+      margin: 0 0 0 auto;
+    }
+
+    img {
+      width: 100px;
+      height: 50px;
+    }
+  }
+
+  .navbar {
+    ul {
+      box-shadow: -4px 4px 18px 0 #e1e1e1b5;
+      position: absolute;
+      right: -120px;
+      top: 72px;
+      @include prefixer(transition, var(--time-transition));
+      &.active {
+        right: 0;
+        border-bottom-left-radius: 18px;
+        overflow: hidden;
+      }
+
+      li {
+        text-align: center;
+        a {
+          background-color: var(--c-white-main);
+          width: 120px;
+          padding: 12px 0;
+          display: block;
+          text-decoration: none;
+          text-wrap: nowrap;
+          font-weight: 600;
+          font-size: 13px;
+          color: var(--c-grey-text);
+          @include prefixer(transition, var(--time-transition));
+
+          @include breakpoints(lg) {
+            background-color: transparent;
+          }
+
+          &:hover,
+          &.active {
+            background-color: var(--c-main);
+            color: var(--c-white-main);
+          }
+        }
+      }
+
+      @include breakpoints(lg) {
+        background-color: transparent;
+        box-shadow: none;
+        display: flex;
+        align-items: center;
+        position: static;
+
+        li {
+          padding: 0;
+          a {
+            background-color: transparent;
+            width: fit-content;
+            padding: 0 0 0 30px;
+            @include prefixer(transition, var(--time-transition));
+            &:hover,
+            &.active {
+              background-color: transparent;
+              color: var(--c-main);
+            }
+          }
+        }
+      }
+    }
+
+    #bar {
+      cursor: pointer;
+
+      span {
+        background-color: var(--c-black-main);
+        width: 22px;
+        height: 2.3px;
+        display: block;
+
+        &:not(:last-child) {
+          margin-bottom: 3px;
+        }
+      }
+
+      &.active {
+        .mid {
+          width: 18px;
+        }
+      }
+    }
+  }
+}

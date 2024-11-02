@@ -1,0 +1,227 @@
+{
+  "ar": [
+    {
+      "id": 1,
+      "location": "المواساة",
+      "branches": [
+        {
+          "id": 1,
+          "title": "الفرع الرئيسي",
+          "address": "المزة، المواساة، مقابل حلويات نبيل نفيسة",
+          "phone": "0930361095",
+          "telephone": "6632432"
+        },
+        {
+          "id": 2,
+          "title": "فرع مشفى الأطفال",
+          "address": "المزة، المواساة، جانب مشفى الأطفال",
+          "phone": "0952314282",
+          "telephone": "6610465"
+        },
+        {
+          "id": 3,
+          "title": "فرع عودة",
+          "address": "المزة، المواساة، جانب مشفى المواساة التخصصي",
+          "phone": "0968175332",
+          "telephone": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "location": "كفر سوسة",
+      "branches": [
+        {
+          "id": 1,
+          "title": "",
+          "address": "جانب مشفى الاسد الجامعي, نفق الصيدلة",
+          "phone": "0956895054",
+          "telephone": "2146707"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "location": "الشيخ سعد",
+      "branches": [
+        {
+          "id": 1,
+          "title": "",
+          "address": "المزة، الشيخ سعد، بعد ملوك الشاورما",
+          "phone": "0930361095",
+          "telephone": "6625894"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "location": "ركن الدين",
+      "branches": [
+        {
+          "id": 1,
+          "title": "",
+          "address": "ركن الدين, ساحة شمدين, جانب صيدلية ابن النفيس",
+          "phone": "0934440503",
+          "telephone": "2770310"
+        },
+        {
+          "id": 2,
+          "title": "",
+          "address": "ركن الدين, مقابل مشفى ابن النفيس",
+          "phone": "0994644228",
+          "telephone": "5110639"
+        }
+      ]
+    }
+  ],
+  "en": [
+    {
+      "id": 1,
+      "location": "Al-Mawasah",
+      "branches": [
+        {
+          "id": 1,
+          "title": "Main Branch",
+          "address": "Mazeh, Al-Mawasah, Opposite Nabil Nafisa Sweets",
+          "phone": "0930361095",
+          "telephone": "6632432"
+        },
+        {
+          "id": 2,
+          "title": "Children's Hospital Branch",
+          "address": "Mazeh, Al-Mawasah, Next to Children's Hospital",
+          "phone": "0952314282",
+          "telephone": "6610465"
+        },
+        {
+          "id": 3,
+          "title": "Return Branch",
+          "address": "Mazeh, Al-Mawasah, Next to Al-Mawasah Specialized Hospital",
+          "phone": "0968175332",
+          "telephone": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "location": "Kafr Sousse",
+      "branches": [
+        {
+          "id": 1,
+          "title": "",
+          "address": "Next to Al-Asad University Hospital, Pharmacy Tunnel",
+          "phone": "0956895054",
+          "telephone": "2146707"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "location": "Al-Sheikh Saad",
+      "branches": [
+        {
+          "id": 1,
+          "title": "",
+          "address": "Mazeh, Al-Sheikh Saad, After Malook Shawarma",
+          "phone": "0930361095",
+          "telephone": "6625894"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "location": "Rukn al-Din",
+      "branches": [
+        {
+          "id": 1,
+          "title": "",
+          "address": "Rukn al-Din, Shamdin Square, Next to Ibn Nafis Pharmacy",
+          "phone": "0934440503",
+          "telephone": "2770310"
+        },
+        {
+          "id": 2,
+          "title": "",
+          "address": "Rukn al-Din, Opposite Ibn Nafis Hospital",
+          "phone": "0994644228",
+          "telephone": "5110639"
+        }
+      ]
+    }
+  ],
+  "fr": [
+    {
+      "id": 1,
+      "location": "Al-Mawasah",
+      "branches": [
+        {
+          "id": 1,
+          "title": "Branche Principale",
+          "address": "Mazeh, Al-Mawasah, En face des douceurs Nabil Nafisa",
+          "phone": "0930361095",
+          "telephone": "6632432"
+        },
+        {
+          "id": 2,
+          "title": "Branche de l'Hôpital pour Enfants",
+          "address": "Mazeh, Al-Mawasah, À côté de l'hôpital pour enfants",
+          "phone": "0952314282",
+          "telephone": "6610465"
+        },
+        {
+          "id": 3,
+          "title": "Branche de Retour",
+          "address": "Mazeh, Al-Mawasah, À côté de l'hôpital spécialisé Al-Mawasah",
+          "phone": "0968175332",
+          "telephone": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "location": "Kafr Sousse",
+      "branches": [
+        {
+          "id": 1,
+          "title": "",
+          "address": "À côté de l'hôpital universitaire Al-Asad, Tunnel de la pharmacie",
+          "phone": "0956895054",
+          "telephone": "2146707"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "location": "Al-Sheikh Saad",
+      "branches": [
+        {
+          "id": 1,
+          "title": "",
+          "address": "Mazeh, Al-Sheikh Saad, Après Malook Shawarma",
+          "phone": "0930361095",
+          "telephone": "6625894"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "location": "Rukn al-Din",
+      "branches": [
+        {
+          "id": 1,
+          "title": "",
+          "address": "Rukn al-Din, Place Shamdin, À côté de la pharmacie Ibn Nafis",
+          "phone": "0934440503",
+          "telephone": "2770310"
+        },
+        {
+          "id": 2,
+          "title": "",
+          "address": "Rukn al-Din, En face de l'hôpital Ibn Nafis",
+          "phone": "0994644228",
+          "telephone": "5110639"
+        }
+      ]
+    }
+  ]
+}

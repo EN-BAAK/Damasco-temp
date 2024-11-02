@@ -1,0 +1,68 @@
+{
+  "ar": [
+    {
+      "id": 1,
+      "feature": "الدقة",
+      "description": "يضمن جهاز Alpha قياسات دقيقة وموثوقة لمستويات الجلوكوز في الدم، مما يوفر للمستخدمين بيانات موثوقة لإدارة فعالة لمرض السكري."
+    },
+    {
+      "id": 2,
+      "feature": "تصميم سهل الاستخدام",
+      "description": "بفضل واجهته البديهية وميزاته السهلة الاستخدام، يناسب جهاز Alpha الأفراد من جميع الأعمار، مما يجعل مراقبة مستويات السكر في الدم مريحة ومتاحة."
+    },
+    {
+      "id": 3,
+      "feature": "أمان البيانات",
+      "description": "يولي جهاز Alpha اهتمامًا خاصًا بأمان وخصوصية بيانات المستخدمين، من خلال استخدام تشفير قوي وتدابير حماية لحماية المعلومات الصحية الحساسة."
+    },
+    {
+      "id": 4,
+      "feature": "المتانة",
+      "description": "مصمم للتحمل، يتحمل جهاز Alpha الاستخدام اليومي، مما يقدم حلاً دائمًا لاحتياجات مراقبة مستمرة لمستويات الجلوكوز في الدم."
+    }
+  ],
+  "en": [
+    {
+      "id": 1,
+      "feature": "Accuracy",
+      "description": "Alpha device ensures accurate and reliable measurements of blood glucose levels, providing users with reliable data for effective diabetes management."
+    },
+    {
+      "id": 2,
+      "feature": "User-Friendly Design",
+      "description": "With its intuitive interface and easy-to-use features, the Alpha device suits individuals of all ages, making monitoring blood sugar levels comfortable and accessible."
+    },
+    {
+      "id": 3,
+      "feature": "Data Security",
+      "description": "Alpha device prioritizes the security and privacy of user data by using strong encryption and protection measures to safeguard sensitive health information."
+    },
+    {
+      "id": 4,
+      "feature": "Durability",
+      "description": "Designed for endurance, the Alpha device withstands daily use, offering a lasting solution for continuous monitoring of blood glucose levels."
+    }
+  ],
+  "fr": [
+    {
+      "id": 1,
+      "feature": "Précision",
+      "description": "Le dispositif Alpha offre des mesures de glucose d’une grande précision, permettant une gestion du diabète plus informée et proactive."
+    },
+    {
+      "id": 2,
+      "feature": "Interface Intuitive",
+      "description": "Avec son interface simple et intuitive, Alpha facilite la surveillance des niveaux de sucre pour les utilisateurs de tout âge."
+    },
+    {
+      "id": 3,
+      "feature": "Sécurité des Données",
+      "description": "Alpha garantit la confidentialité des données des utilisateurs grâce à un système de cryptage avancé et sécurisé."
+    },
+    {
+      "id": 4,
+      "feature": "Durabilité",
+      "description": "Pensé pour une utilisation quotidienne, Alpha assure une surveillance fiable et continue du glucose."
+    }
+  ]
+}

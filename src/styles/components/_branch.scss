@@ -1,0 +1,94 @@
+.branch-card {
+  width: 80%;
+
+  @include breakpoints(md) {
+    width: calc(50% - 30px);
+  }
+
+  &::before {
+    content: "";
+    background-color: var(--c-white-main);
+    @include same-scale(15px);
+    @include prefixer(border-radius, 50%);
+    outline: 3px solid var(--c-main);
+    position: absolute;
+    top: 20px;
+  }
+
+  &::after {
+    content: "";
+    border: 15px solid;
+    position: absolute;
+    top: 14px;
+  }
+
+  &::after,
+  &::before {
+    display: none;
+
+    @include breakpoints(md) {
+      display: block;
+    }
+  }
+
+  &.right {
+    float: none;
+
+    &::before {
+      left: -38px;
+    }
+
+    &::after {
+      border-color: transparent var(--c-white-main) transparent transparent;
+      left: -30px;
+    }
+
+    @include breakpoints(md) {
+      float: right;
+    }
+  }
+
+  &.left {
+    float: none;
+
+    &::before {
+      right: -38px;
+    }
+
+    &::after {
+      border-color: transparent transparent transparent var(--c-white-main);
+      right: -30px;
+    }
+
+    @include breakpoints(md) {
+      float: left;
+    }
+  }
+
+  img {
+    max-height: 200px;
+  }
+
+  .card-title {
+    color: var(--c-main);
+  }
+
+  .phone {
+    cursor: pointer;
+  }
+
+  svg {
+    @include set-position(auto, auto, 15px, 20px);
+    color: var(--c-main);
+    cursor: pointer;
+    @include prefixer(transition, var(--time-transition));
+
+    &.en {
+      @include set-position(auto, 20px, 15px, auto);
+    }
+
+    &:hover {
+      color: var(--c-main-shadow);
+    }
+  }
+}

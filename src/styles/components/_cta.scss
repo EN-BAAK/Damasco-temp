@@ -1,0 +1,13 @@
+#cta {
+  background-color: var(--c-main);
+  margin: 0 0;
+  padding: 50px 10px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--c-white-main);
+
+  @include breakpoints(md) {
+    padding: 50px 50px;
+  }
+}

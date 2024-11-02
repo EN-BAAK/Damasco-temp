@@ -1,0 +1,36 @@
+#about {
+  .row {
+    &.ar {
+      flex-direction: row-reverse;
+    }
+
+    p {
+      line-height: 1.8;
+      font-size: 20px;
+
+      span {
+        padding: 0 5px;
+        font-weight: bold;
+        color: var(--c-main);
+      }
+
+      &.ar {
+        font-size: 22px;
+      }
+
+      @include breakpoints(#{$lg-max}) {
+        text-align: center;
+      }
+    }
+    .img-holder {
+      &.ar {
+        order: 6;
+      }
+
+      img {
+        @include prefixer(border-radius, 8px);
+        cursor: pointer;
+      }
+    }
+  }
+}

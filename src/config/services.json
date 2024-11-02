@@ -1,0 +1,98 @@
+{
+  "ar": [
+    {
+      "id": 1,
+      "title": "الدعامات والمشدات",
+      "desc": "مجموعة شاملة من الدعامات والمشدات الطبية، تشمل مشدات للظهر، اليد، الرسغ، الكاحل، القدم، والرقبة، بالإضافة إلى مشدات التنحيف."
+    },
+    {
+      "id": 2,
+      "title": "الأدوات الجراحية",
+      "desc": "أدوات جراحية عالية الجودة، تشمل الملاقط والمشارط بمقاسات مختلفة لتناسب كافة الاحتياجات الطبية."
+    },
+    {
+      "id": 3,
+      "title": "القثاطر",
+      "desc": "تشكيلة واسعة من القثاطر، بما في ذلك القثاطر الوريدية، قثاطر القلب، وأنواع أخرى متخصصة لتطبيقات طبية متنوعة."
+    },
+    {
+      "id": 4,
+      "title": "الأجهزة الطبية",
+      "desc": "مجموعة متكاملة من الأجهزة، تشمل أجهزة قياس الضغط الهوائية والإلكترونية، أجهزة قياس السكر، منظارات الأذن، وأنظمة تصريف الصدر."
+    },
+    {
+      "id": 5,
+      "title": "الملابس الطبية",
+      "desc": "ملابس طبية عالية الجودة، تشمل بجامات جراحية، مراييل، وأحذية طبية مريحة ومخصصة للعاملين في المجال الطبي."
+    },
+    {
+      "id": 6,
+      "title": "أجهزة أوكسجين",
+      "desc": "مجموعة متكاملة من أجهزة الأوكسجين، تشمل مولدات الأوكسجين وأقنعة الأوكسجين للاستخدامات الطبية المتنوعة."
+    }
+  ],
+  "en": [
+    {
+      "id": 1,
+      "title": "Supports and Braces",
+      "desc": "A comprehensive range of medical supports and braces, including back, hand, wrist, ankle, foot, and neck braces, as well as slimming supports."
+    },
+    {
+      "id": 2,
+      "title": "Surgical Instruments",
+      "desc": "High-quality surgical instruments, including forceps and scalpels available in various sizes to meet all medical needs."
+    },
+    {
+      "id": 3,
+      "title": "Catheters",
+      "desc": "A wide selection of catheters, including intravenous catheters, cardiac catheters, and other specialized types for various medical applications."
+    },
+    {
+      "id": 4,
+      "title": "Medical Devices",
+      "desc": "A complete range of devices, including manual and electronic blood pressure monitors, glucose meters, otoscopes, and chest drainage systems."
+    },
+    {
+      "id": 5,
+      "title": "Medical Apparel",
+      "desc": "High-quality medical apparel, including surgical scrubs, gowns, and comfortable footwear designed for healthcare professionals."
+    },
+    {
+      "id": 6,
+      "title": "Oxygen Devices",
+      "desc": "A comprehensive range of oxygen devices, including oxygen concentrators and masks for various medical uses."
+    }
+  ],
+  "fr": [
+    {
+      "id": 1,
+      "title": "Soutiens et Attelles",
+      "desc": "Une gamme complète de soutiens et d'attelles médicales, y compris des attelles pour le dos, la main, le poignet, la cheville, le pied et le cou, ainsi que des soutiens amincissants."
+    },
+    {
+      "id": 2,
+      "title": "Instruments Chirurgicaux",
+      "desc": "Instruments chirurgicaux de haute qualité, y compris des pinces et des scalpels disponibles en différentes tailles pour répondre à tous les besoins médicaux."
+    },
+    {
+      "id": 3,
+      "title": "Cathéters",
+      "desc": "Une large sélection de cathéters, y compris des cathéters intraveineux, des cathéters cardiaques et d'autres types spécialisés pour diverses applications médicales."
+    },
+    {
+      "id": 4,
+      "title": "Appareils Médicaux",
+      "desc": "Une gamme complète d'appareils, y compris des tensiomètres manuels et électroniques, des glucomètres, des otoscopes et des systèmes de drainage thoracique."
+    },
+    {
+      "id": 5,
+      "title": "Vêtements Médicaux",
+      "desc": "Vêtements médicaux de haute qualité, y compris des blouses chirurgicales, des robes et des chaussures confortables conçues pour les professionnels de la santé."
+    },
+    {
+      "id": 6,
+      "title": "Appareils à Oxygène",
+      "desc": "Une gamme complète d'appareils à oxygène, y compris des concentrateurs d'oxygène et des masques pour divers usages médicaux."
+    }
+  ]
+}

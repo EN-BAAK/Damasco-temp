@@ -1,0 +1,88 @@
+{
+  "global": {
+    "home": "accueil",
+    "brands": "marques",
+    "about": "à propos",
+    "guarantee": "Garantie",
+    "services": "services",
+    "branches": "succursales",
+    "company": "Damasco",
+    "about-us": "à propos de nous",
+    "damasco": "Damasco",
+    "cmore": "Voir plus",
+    "gallery": "galerie"
+  },
+  "topBar": {
+    "time": "Du samedi au jeudi, de 8h à 22h",
+    "calling": "Appelez-nous :",
+    "number": "0954 439 592"
+  },
+  "hero": {
+    "welcome": "Bienvenue chez <span>Damasco</span> Société de fournitures médicales.",
+    "message1": "Tout ce dont les médecins et les patients ont besoin.",
+    "message2": "Orthèses médicales.",
+    "message3": "Instruments chirurgicaux.",
+    "message4": "Vêtements médicaux.",
+    "message5": "Dispositifs de mesure de la glycémie, de la pression artérielle et de l'oxygène."
+  },
+  "brands": {
+    "title": "Nous proposons des produits médicaux des sociétés internationales les plus célèbres qui sont considérées comme des pionnières dans leur domaine"
+  },
+  "about": {
+    "paragraph": "L'entreprise Damascus, fondée en 2011, est une entreprise leader dans le domaine des fournitures médicales. Damascus s'efforce de répondre aux besoins des médecins et des patients en proposant une large gamme de produits de haute qualité. Sous le slogan <span>'Tout pour le médecin et le patient'</span> nous nous engageons à fournir les dernières technologies médicales et les fournitures essentielles qui contribuent à améliorer les soins de santé et à améliorer l'expérience client. Damascus est connue pour ses prix compétitifs, ce qui en fait le choix optimal pour les clients recherchant la qualité à un coût raisonnable.",
+    "showMore": "Afficher plus..."
+  },
+  "cta": {
+    "title": "Damasco est fier d'avoir plusieurs succursales à Damas, garantissant la portée de ses services et produits au plus grand nombre possible de clients de la région. Que vous soyez un médecin à la recherche d'outils précis et d'appareils médicaux innovants, ou un patient ayant besoin de fournitures médicales fiables pour un usage quotidien, Damasco est le partenaire idéal pour vous. Nous sommes là pour vous soutenir à chaque étape sur le chemin d'une santé globale",
+    "btn": "Explorer plus"
+  },
+  "guarantee": {
+    "title": "Garanties",
+    "desc": "Au fil des années du parcours de la société Damas, nous avons noué des partenariats avec une sélection d'entreprises locales et internationales réputées pour leur qualité supérieure. Cela nous a poussés à offrir des garanties pour renforcer la confiance de nos clients en nous.",
+    "guarantee": "Le dispositif de mesure du sucre Alpha établit une nouvelle norme dans les soins du diabète en mettant l'accent sur la sécurité des données et la confidentialité des utilisateurs, en utilisant des méthodes de cryptage robustes pour protéger les informations de santé sensibles. Sa construction durable garantit sa longévité, en faisant de lui un compagnon fiable pour les besoins quotidiens de surveillance du glucose. Cet appareil innovant s'adresse aux utilisateurs de tous âges, offrant une expérience fluide et confortable dans le suivi des niveaux de sucre dans le sang. Avec son accent sur la précision et la facilité d'utilisation, le dispositif Alpha permet aux individus de prendre le contrôle de leur santé en toute confiance et sérénité. Son mélange de technologie avancée et de design centré sur l'utilisateur en fait un atout précieux pour ceux qui donnent la priorité à une gestion proactive et efficace du diabète.",
+    "showMore": "Afficher plus..."
+  },
+  "services": {
+    "desc": "Nous offrons une gamme diversifiée de produits essentiels pour les professionnels de la santé dans les procédures chirurgicales et les examens, en plus de fournir tout l'équipement et les outils nécessaires pour les infirmières et les patients"
+  },
+  "branches": {
+    "desc": "Nous avons plusieurs succursales dans diverses zones de la capitale Damas pour garantir tout ce qui concerne le médecin et le patient, n'importe où et à tout moment",
+    "mobile": "Phone",
+    "telephone": "téléphone"
+  },
+  "gallery": {
+    "title": "Galerie"
+  },
+  "footer": {
+    "services": {
+      "title": "Nos Services",
+      "content": {
+        "braces": "Attelles et Supports",
+        "Instruments": "Instruments Chirurgicaux",
+        "catheters": "Cathéters",
+        "devices": "Dispositifs Médicaux",
+        "apparel": "Vêtements Médicaux",
+        "oxygen": "Équipement d'Oxygène"
+      }
+    },
+    "links": {
+      "title": "Liens Rapides",
+      "content": {
+        "home": "Accueil",
+        "brands": "Marques",
+        "about": "À Propos",
+        "services": "Services",
+        "branches": "Filiales"
+      }
+    },
+    "contact": {
+      "damasco": "Damasco Société de fournitures médicales",
+      "markering": "Tout ce dont les médecins et les patients ont besoin.",
+      "social": {
+        "mail": "mail",
+        "phone": "mobile",
+        "telephone": "téléphone"
+      }
+    }
+  }
+}

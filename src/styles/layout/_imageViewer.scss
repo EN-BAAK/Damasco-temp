@@ -1,0 +1,34 @@
+#img-viewer {
+  background-color: #00000092;
+  @include centering;
+  @include set-position(0, 0, 0, 0);
+  z-index: 1000;
+
+  .img-holder {
+    background-color: var(--c-white-shadow);
+    width: 80%;
+    max-width: 800px;
+    height: auto;
+    max-height: 80vh;
+    padding: 20px;
+    @include centering;
+
+    img {
+      max-width: 80%;
+      height: auto;
+      max-height: 80vh;
+    }
+
+    button {
+      background-color: var(--c-white-main);
+      @include same-scale(35px);
+      @include centering;
+      @include set-position(10px, 10px, auto, auto);
+      @include prefixer(transition, var(--time-transition));
+
+      &:hover {
+        background-color: var(--c-main-shadow);
+      }
+    }
+  }
+}

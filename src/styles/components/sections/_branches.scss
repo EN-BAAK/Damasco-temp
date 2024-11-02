@@ -1,0 +1,29 @@
+#branches {
+  .branches-container {
+    z-index: 1;
+
+    .line {
+      content: "";
+      background-color: var(--c-main);
+      width: 2px;
+      @include prefixer(border-radius, 1px);
+      position: absolute;
+      @include center-x;
+      top: -5px;
+      @include prefixer(transition, var(--time-transition));
+      z-index: -1;
+    }
+
+    .location {
+      background-color: var(--c-main);
+      width: fit-content;
+      @include prefixer(border-radius, 6px);
+      z-index: 50;
+      color: var(--c-white-main);
+    }
+
+    .clear {
+      clear: both;
+    }
+  }
+}
