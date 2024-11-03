@@ -6,32 +6,6 @@
   position: relative;
   z-index: 1;
 
-  span {
-    position: absolute;
-    @include center-x;
-    top: -75px;
-    z-index: -1;
-    font-family: "Droid Arabic Naskh", "Droid Arabic Kufi", Arial, sans-serif;
-    text-wrap: nowrap;
-    font-size: 100px;
-    color: var(--c-main);
-    @include opacity(0.2);
-    @include prefixer(transition, var(--time-transition));
-
-    &.ar {
-      letter-spacing: 20px;
-    }
-
-    @include breakpoints(xs) {
-      top: -45px;
-      font-size: 50px;
-
-      &.ar {
-        letter-spacing: 10px;
-      }
-    }
-  }
-
   h1 {
     width: fit-content;
     margin: 0 auto 5px;
@@ -67,10 +41,6 @@
   }
 
   &:hover {
-    span {
-      top: -80px;
-      @include opacity(0);
-    }
     h1 {
       color: var(--c-white-main);
 

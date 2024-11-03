@@ -14,7 +14,7 @@ const LanguageBox = (): React.JSX.Element => {
     i18n.changeLanguage(lang);
 
     setItemToLocalStorage("lang", lang);
-
+    window.location.reload()
   }
 
   return (
